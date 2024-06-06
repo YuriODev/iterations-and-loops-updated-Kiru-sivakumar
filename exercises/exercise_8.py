@@ -1,1 +1,4 @@
-# Your solution to Exercise 8
+n = int(input('please enter a number:'))
+for i in range (1, n+1):
+    if i%2 == 0 :
+        print(i, end = ' ')
