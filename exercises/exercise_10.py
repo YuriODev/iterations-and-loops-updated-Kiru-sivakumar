@@ -1,4 +1,10 @@
-# 1 pound  == 0.453 kg
-n = int(input('Please enter the number:'))
-for i in range (1, n+1):
-    print(i,' ',str(i*(0.453))+'kg')
+# Prompt the user to enter the number of pounds.
+pounds = int(input())
+
+# Initialize the kilograms variable.
+kilograms = 0
+
+# Loop through the range of pounds and print the equivalent kilograms.
+for i in range(1, pounds + 1):
+    kilograms += 0.453
+    print(f"{i} {kilograms:.2f}")
